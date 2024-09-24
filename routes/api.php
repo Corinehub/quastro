@@ -1,6 +1,9 @@
 <?php
 
-use Illuminate\Http\Request;
+use App\Http\Controllers\CorineHub\Controller;
+use App\Http\Controllers\CorineHub\DaoController;
+use App\Http\Controllers\CorineHub\DocumentsController;
+use Illuminate\Http\Request; 
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,3 +20,4 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
